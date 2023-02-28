@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  
+:root {   
+  font-size: 62.5%;
+  --gray-900: #121214;
+  --gray-300: #444448;
+
+  --primary-200: #fcd085;
+  --primary-400: #ffbc48;
+}
+
+    
+body {
+  font-size: 1.6rem;  
+  font-family: sans-serif;
+  background: var(--gray-900);
+  color: white;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+header h1 {
+  margin: 30px;
+}
+
+header input {
+  border-radius: .8rem ;
+  color: white;
+  padding: 1rem 1.6rem;
+  background: var(--gray-300);
+  border: 0;
+  width: 40rem;
+}
+
+.input-wrapper {
+  position: relative;   
+}
+
+.input-wrapper i {
+  position: absolute;
+  bottom: .87rem;
+  left: 37rem; 
+} 
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 7.0rem 15rem;
+}
+
+.top  {
+  display:flex;
+  gap: .8rem;
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;  
+}
+
+.card {
+  background: var(--gray-300);
+  width: 24.0rem ;
+  height: 23.8rem;
+  border-radius: 10px;
+  padding: 3rem ;
+  transition: .3s;
+}
+
+.card i {
+  background: var(--primary-400);
+  color: black;
+  border-radius: 50%;
+  padding: .3rem;
+}
+
+.cards p {
+  opacity: .5;  
+  margin-top: 1.5rem;
+}
+
+.cards a {
+  text-decoration: none;
+  color:white;
+}
+
+.cards h2 {
+  font-size: 2rem;
+}
+
+.cards:has(.card:hover) .card:not(:hover) {
+  opacity: .6;
+  scale: .98;
+}
