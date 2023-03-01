@@ -1,13 +1,24 @@
-<h1 align="center"> Site para encontrar bloco de carnaval </h1>
+
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
+
+<!-- code_chunk_output -->
+
+- [🚀 Tecnologias](#--tecnologias-)
+- [🔖 Layout](#--layout-)
+
+<!-- /code_chunk_output -->
+
+
+<!-- /code_chunk_output -->
+<h1 align="center"> Filtrando elementos na DOM com JavaScript PURO.</h1>
 
 <p align="center">
-#boraCodar são desafios semanais, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
 </p>
 
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
 </p>
 
 <p align="center">
@@ -25,17 +36,9 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- JavaScript
 - Git e Github
-- Figma
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1207675804423978995). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Créditos para Mayke Brito - Rocketseat: (https://www.rocketseat.com.br/)
